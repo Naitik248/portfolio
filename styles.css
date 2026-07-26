@@ -286,13 +286,10 @@ h3 {
 
 .hero-visual {
   position: relative;
-  min-height: min(78vw, 620px);
+  min-height: min(78vw, 550px);
   overflow: hidden;
   border: 1px solid rgba(154, 107, 56, 0.24);
   border-radius: var(--radius);
-  background:
-    linear-gradient(145deg, rgba(255, 250, 241, 0.9), rgba(232, 218, 199, 0.64)),
-    radial-gradient(circle at 70% 30%, rgba(199, 163, 95, 0.2), transparent 40%);
   box-shadow: var(--shadow);
 }
 
@@ -301,14 +298,18 @@ h3 {
   inset: 0;
   width: 100%;
   height: 100%;
+  background-image: url("C:\\Users\\Shree Ganesha\\OneDrive\\Documents\\Portfolio application\\IMG-20260215-WA0103.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .profile-card {
   position: absolute;
-  right: 1.25rem;
-  bottom: 1.25rem;
-  left: 1.25rem;
-  padding: clamp(1.2rem, 4vw, 2rem);
+  opacity: 0.85;
+  right: 1rem;
+  bottom: 1rem;
+  left: 1rem;
+  padding: clamp(1rem, 2vw, 1rem);
   border: 1px solid rgba(255, 250, 241, 0.58);
   border-radius: var(--radius);
   background: rgba(255, 250, 241, 0.76);
@@ -318,6 +319,9 @@ h3 {
 .profile-card h2 {
   max-width: 520px;
   margin-bottom: 1.2rem;
+  opacity: 0.9;
+  color: var(--brown);
+  font-family: "Cormorant Garamond", "Iowan Old Style", Georgia, "Times New Roman", serif;
   font-size: clamp(1.6rem, 4vw, 2.75rem);
 }
 
@@ -419,6 +423,12 @@ h3 {
 .stat-card span {
   color: var(--muted);
   font-size: 0.92rem;
+}
+
+.Certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
 }
 
 .project-grid {

@@ -1,0 +1,12 @@
+Your Name
+AI/ML Engineer Student
+
+Replace this placeholder with your real resume PDF when ready.
+
+Suggested sections:
+- Education
+- Technical skills
+- AI/ML projects
+- Certifications
+- Achievements
+- Contact links
